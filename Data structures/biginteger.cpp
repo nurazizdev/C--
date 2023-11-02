@@ -1,10 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
-  
-#define IOS ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0); 
-#define str string
-#define ll long long
- 
+using namespace std;  
 class BigInt{
 public:
     vector<short> value;
@@ -20,7 +15,7 @@ public:
     BigInt(){
         sign = 0;
     }
-    BigInt(str s){
+    BigInt(string s){
         sign = 1;
         if(s[0] == '-'){
             sign = -1;
@@ -31,7 +26,7 @@ public:
         clear_leading_zeros();
     }
 
-    BigInt(ll a){
+    BigInt(long long a){
         *this = BigInt(to_string(a));
     }
 
@@ -118,7 +113,7 @@ public:
         if(a < b) return 0;
         BigInt c;
         c.sign = 1;
-        ll s = 0;
+        long long s = 0;
         int i = a.size() - 1;
         while(s < b){
             s = s * 10 + a[i];
@@ -140,7 +135,7 @@ public:
 }; 
 
 istream& operator >>(istream& in , BigInt &a){
-    str s;
+    string s;
     in >> s;
     a = BigInt(s);
     return in;
@@ -152,8 +147,4 @@ ostream& operator <<(ostream& out , BigInt a){
     for(int i = a.size() - 1 ; i >= 0 ; i--)
         cout << a[i];
     return out;
-}
-   
-signed main(){
-    
 }

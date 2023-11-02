@@ -70,6 +70,10 @@
     "tuple": "cpp",
     "utility": "cpp",
     "variant": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
   }
 }

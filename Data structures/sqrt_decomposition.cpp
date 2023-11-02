@@ -2,7 +2,6 @@
 using namespace std;
 
 #define int long long
- 
 const int inf = LLONG_MAX;
 
 vector<int> a , sum , mn , ad , up;

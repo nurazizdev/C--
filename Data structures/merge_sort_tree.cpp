@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define pb push_back
 
 vector<vector<int>> tree;
 vector<int> a;
@@ -11,22 +10,22 @@ vector<int> merge(vector<int> x , vector<int> y){
     int i = 0 , j = 0;
     while(i < n && j < m){
         if(x[i] < y[j]){
-            res.pb(x[i]);
+            res.push_back(x[i]);
             i ++;
         }
         else{
-            res.pb(y[j]);
+            res.push_back(y[j]);
             j ++;
         }
     }
-    while(i < n) res.pb(x[i ++]);
-    while(j < m) res.pb(y[j ++]);
+    while(i < n) res.push_back(x[i ++]);
+    while(j < m) res.push_back(y[j ++]);
     return res;
 }
 
 void build(int v , int l , int r){
     if(l == r){
-        tree[v].pb(a[l - 1]);
+        tree[v].push_back(a[l - 1]);
         return;
     }
     int m = (l + r) >> 1;
