@@ -58,6 +58,18 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "random": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "complex": "cpp",
+    "array": "cpp",
+    "*.tcc": "cpp",
+    "memory": "cpp",
+    "format": "cpp",
+    "future": "cpp",
+    "istream": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "utility": "cpp",
+    "variant": "cpp",
+    "cmath": "cpp"
   }
 }

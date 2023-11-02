@@ -8,7 +8,6 @@ using namespace std;
 #define ull unsigned long long
 #define ld long double
 #define pb push_back
-#define mp make_pair
 #define F first
 #define S second
 #define all(x) x.begin() , x.end()
@@ -26,6 +25,6 @@ void solution(){
  
 signed main(){
     IOS;
-    int t = 1; cin >> t;
+    int t = 1; //cin >> t;
     while(t --) solution();
 }
