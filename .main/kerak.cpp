@@ -5,10 +5,8 @@ using namespace std;
 #define str string
 #define int long long
 #define ll long long
-#define ull unsigned long long
 #define ld long double
 #define pb push_back
-#define mp make_pair
 #define F first
 #define S second
 #define all(x) x.begin() , x.end()
@@ -22,7 +20,7 @@ const int dx[4]{1 , 0 , -1 , 0} , dy[4]{0 , 1 , 0 , -1};
 
 void solution(){
     
-}
+}  
  
 signed main(){
     IOS;
@@ -30,6 +28,6 @@ signed main(){
         freopen("input.txt", "r" , stdin);
         freopen("output.txt", "w", stdout);
     #endif
-    int t = 1; //cin >> t;
+    int t = 1; // cin >> t;
     while(t --) solution();
-}
+}   
