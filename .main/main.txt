@@ -1,0 +1,21 @@
+binary search                                       ok
+techniques
+
+binpow , modpow                                    ok
+dec to any , any to dec                            ok
+area of triangle                                   ok
+prefic function                                    ok
+z function                                         ok
+Manakera                                           ok
+hesh                                               ok
+suffix array                                       ok
+RMQ                                                ok
+sqrt-decom                                         ok
+fenwik tree                                        ok
+segment tree                                       eduni qara
+bfs                                                ok
+ford                                               ok
+daykstra                                           ok
+min karkas                                         ok
+DSU                                                ok                                      
+centroid                                           ok
