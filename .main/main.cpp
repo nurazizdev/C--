@@ -22,7 +22,7 @@ const ll mod = 1e9 + 7; // 998244353;
 const int dx[4]{1 , 0 , -1 , 0} , dy[4]{0 , 1 , 0 , -1};
 
 void solution(){
-    for(int i = 0 ; i < 10 ; i ++) cout << 1;
+    
 }  
  
 signed main(){
