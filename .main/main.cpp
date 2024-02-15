@@ -1,4 +1,4 @@
-#pragma GCC optimize("Ofast")
+#pragma GCC optimize ("Ofast")
 #pragma GCC optimize ("unroll-loops")
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,7 +14,7 @@ using namespace std;
 #define setpr(x) cout << fixed << setprecision(x) 
 #define endl '\n'
  
-const int inf = INT_MAX;
+const int inf = INT_MAX , maxn = 1e5 + 5;
 const long double eps = 1e-9 , pi = acos(-1.0);
 const ll mod = 1e9 + 7; // 998244353;
 const int dx[4]{1 , 0 , -1 , 0} , dy[4]{0 , 1 , 0 , -1};
